@@ -1,0 +1,26 @@
+{
+  "name": "sravan-package",
+  "version": "1.0.0",
+  "description": "Demo for React",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sravan4350/React.git"
+  },
+  "author": "Sravan kumar Perumandla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sravan4350/React/issues"
+  },
+  "homepage": "https://github.com/Sravan4350/React#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0"
+  }
+}

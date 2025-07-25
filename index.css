@@ -1,6 +1,96 @@
-.heading {
-    color: red;
+/* Existing CSS */
+.header {
+    color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dee2e6;
+    align-items: center;
+    padding: 10px;
 }
-.para {
-    color: blue;
+.nav-logo {
+    width: 80px;
+}
+.nav-items > ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-items > ul > li {
+    font-size: 20px;
+}
+.body {
+    /* height: 100vh; */ /* Removed this, as it can cause overflow issues */
+    padding: 10px;
+}
+.search-container {
+    height: 30px;
+    padding: 20px;
+    text-align: center; /* Center the search bar */
+}
+.search-bar {
+    height: 30px;
+    padding: 0 10px; /* Add some padding */
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 300px; /* Adjust width as needed */
+    margin-right: 10px; /* Space between input and button */
+}
+.search-button {
+    height: 30px;
+    width: 100px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+
+.restaurant-list-container { 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center;
+    padding: 20px;
+}
+
+.restaurant-container { 
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px; 
+    display: flex; 
+    flex-direction: column; 
+}
+.restaurant-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.restro-image {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-bottom: 1px solid #eee;
+}
+.restro-details {
+    padding: 15px; 
+    font-size: 15px;
+    color: #333;
+}
+.restro-details h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #007bff;
+}
+.restro-details p {
+    margin-bottom: 5px;
+    line-height: 1.4;
 }

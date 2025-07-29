@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client';
 import Header from "./src/components/Header";
-import Body from "./src/components/Body";
+import Body from "./src/components/BodyComponent";
 import cards from "./utils/mockData";
 
 const AppLayout = () => {
